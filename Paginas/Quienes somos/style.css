@@ -76,4 +76,18 @@ table{
     top: 30%;
 }
 
-  
+  @media (max-width: 767px) {
+    .texto-flotante {
+        font-size: 14px; /* Ajusta el tamaño del texto según tus necesidades */
+        padding: 10px; /* Ajusta el espaciado interior */
+    }
+    
+    .texto-flotante h1 {
+        font-size: 24px; /* Ajusta el tamaño del título según tus necesidades */
+    }
+    
+    .texto-flotante h2 {
+        font-size: 16px; /* Ajusta el tamaño del subtítulo según tus necesidades */
+        margin-top: 10px; /* Agrega espacio entre los elementos de texto */
+    }
+}

@@ -19,7 +19,7 @@ ul{
 }
 .imgPrincipal{
     width: 100%;
-    height: 580px;
+    height: 100px;
 }
 .legion{
     width: 120px;
@@ -43,4 +43,21 @@ footer{
 
 form{
     font-size: 30px;
+}
+.icons{
+    width: 120px;
+   height: 120px; 
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* Proporción 16:9 (9 dividido por 16) */
+}
+
+.video-container video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
